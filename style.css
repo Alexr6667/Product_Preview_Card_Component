@@ -111,6 +111,11 @@ svg {
     color: var(--color-card-bg);
 }
 
+.cta:hover {
+    background-color: var(--color-cta-hover);
+    cursor: pointer;
+}
+
 
 
 
