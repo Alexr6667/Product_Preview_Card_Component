@@ -36,33 +36,37 @@ body {
 
 }
 
+.mobile-img {
+    display: none;
+}
+
 .card {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 
-.container {
-    border-radius: 1rem;
-    width: 34.3rem;
+.desktop-img {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.desktop-img,
+.info-section {
+    width: 30rem;
+    height: 45rem;
     background-color: var(--color-card-bg);
 }
 
-.container img {
-    width: 100%;
-    border-radius: 1rem 1rem 0 0;
-}
-
 .info-section {
-    padding: 2.5rem;
+    width: 30rem;
+    border-radius: 0 1rem 1rem 0;
 }
 
 .name {
     font-size: 1.2rem;
     letter-spacing: 0.5rem;
-    margin-bottom: 1.2rem;;
-    
+    margin: 3.2rem 17.65rem 2rem 3.15rem;
 }
 
 .title,
@@ -71,14 +75,14 @@ body {
     font-size: 3.2rem;
     line-height: 3.2rem;
     font-weight: var(--fw-700);
-    margin-bottom: 1.6rem;
+    margin: 0 1.9rem 3rem 3.2rem;
     color: var(--color-title);
 }
 
 .paragraph {
     font-size: 1.4rem;
     line-height: 2.3rem;
-    padding-bottom: 2.4rem;
+    margin: 0 3.15rem 2.9rem 3.15rem;
 }
 
 .new-price {
@@ -102,43 +106,20 @@ svg {
 
 .cta {
     display: block;
-    width: 100%;
+    width: 23.6rem;
     height: 4.8rem;
     font-size: 1.4rem;
     font-weight: var(--fw-700);
     background-color: var(--color-cta);
     border-radius: 0.8rem;
     color: var(--color-card-bg);
+    margin: 0 auto;
 }
 
 .cta:hover {
     background-color: var(--color-cta-hover);
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .attribution {
