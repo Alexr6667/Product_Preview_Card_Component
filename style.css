@@ -121,6 +121,45 @@ svg {
     cursor: pointer;
 }
 
+@media (max-width: 670px) {
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .desktop-img {
+        display: none;
+    }
+    .mobile-img {
+        display: flex;
+        width: 34.3rem;
+        height: 24rem;
+        border-radius: 1rem 1rem 0 0;
+    }
+    .info-section {
+        width: 34.3rem;
+        height: 37.1rem;
+        border-radius: 0 0 1rem 1rem;
+    }
+    .name {
+        margin: 2.4rem 22.7rem 1.2rem 2.4rem;
+    }
+    .title{
+        margin: 0 2.4rem 1.6rem 2.4rem;
+    }
+    .paragraph {
+        margin: 0 2.4rem 2.4rem 2.4rem;
+    }
+    .new-price {
+        margin: 0 1.9rem 2rem 2.4rem;
+    }
+    .cta {
+        width: 29.5rem;
+    }
+}
+
 
 .attribution {
     font-size: 11px;
